@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onlegarage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Brage+Grotesque:opsz,wght@10..48,400;10..48,700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="css/cabecalho.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/chamada.css">
+  <link rel="stylesheet" href="css/contato.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/servico.css">
+  <link rel="stylesheet" href="css/sobre.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Phudu:wght@300&family=Rye&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/fotos/onle-garage.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- cabecalho -->
+  <header class="cabecalho">
+   <img src="/fotos/onle-garage.png" class="logo" alt="logo"> 
+    <nav class="cabecalho__navegacao">
+           
+      <a href="#servicos" class="cabecalho__link">Serviços</a>
+      <a href="#veiculos" class="cabecalho__link">Veículos</a>
+      <a href="#sobre" class="cabecalho__link">Sobre nós</a>
+      <a href="#contatos" class="cabecalho__link">Contatos</a>
+    </nav>    
+  </header>
+  <main>
+  <!-- banner -->
+    <section class="chamada">
+      <h1 class="chamada__titulo">Tudo começa com um sonho.</h1>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">        
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/fotos/IMG_2200.JPG" class="d-block w-100" alt="mini 1">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/fotos/IMG_2183.JPG" class="d-block w-100" alt="mini 2">
+          </div>
+          <div class="carousel-item">
+            <img src="/fotos/IMG_2195.JPG" class="d-block w-100" alt="mini 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev seta" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>       
+      </div>
+      <p class="chamada__texto ">Venha experimentar um evento conosco, alugando nossos carros clássicos.</p>      
+    </section>
+  <!-- servico  -->
+    <section class="servico" id="servicos">
+      <h1 class="servico__titulo">Serviços</h1>
+      <div class="servico__texto">
+        <a href="" class="servico__link botao"><img src="fotos/IMG_2200.JPG" alt="" class="fotos">Casamentos</a>
+        <a href="" class="servico__link botao"><img src="fotos/IMG_2200.JPG" alt="" class="fotos">Eventos
+          automotivos</a>
+        <a href="" class="servico__link botao"><img src="fotos/IMG_2200.JPG" alt="" class="fotos">Ensaio
+          fotografico/video</a>
+      </div>
+    </section>
+  <!-- cards -->
+    <section class="card__grid" id="veiculos">
+      <h1 class="card__titulo"> Veículos</h1>
+      <div class="cards">
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2200.JPG" class="card-img-top" alt="mini cooper">
+          <div class="card__body">
+            <h5 class="card__title">Mini Cooper-Mini</h5>
+            <p class="card__text">
+              ano de fabricaçao: 1974
+              cor: amarelo
+              caracteristicas: 2 portas</p>
+            <a href="mailto:kiki_sns@hotmail.com" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2195.JPG" class="card-img-top" alt="...">
+          <div class="card__body">
+            <h5 class="card__title">Le Sabre-Buick</h5>
+            <p class="card__text">
+              ano de fabricação: 1960
+              cor: azul claro                  
+              características: 4 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2183.JPG" class="card-img-top" alt="...">
+          <div class="card__body">
+            <h5 class="card__title">Thunderbird-Ford</h5>
+            <p class="card__text">
+              ano de fabricação: 1957
+              cor: branca
+              características: 2 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2195.JPG" class="card-img-top" alt="...">
+          <div class="card__body">
+            <h5 class="card__title">Fusca-VW</h5>
+            <p class="card__text">
+              ano de fabricação: 1972
+              cor: marrom
+              características: 2 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2200.JPG" class="card-img-top" alt="mini cooper">
+          <div class="card__body">
+            <h5 class="card__title">Karmann Ghia TC-VW</h5>
+            <p class="card__text">
+              ano de fabricação: 1974
+              cor: amarelo
+              características: 2 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2200.JPG" class="card-img-top" alt="mini cooper">
+          <div class="card__body">
+            <h5 class="card__title">Variant-VW</h5>
+            <p class="card__text">
+              ano de fabricação: 1972
+              cor: laranja
+              características: 2 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2200.JPG" class="card-img-top" alt="mini cooper">
+          <div class="card__body">
+            <h5 class="card__title">Mustang fastback-Ford</h5>
+            <p class="card__text">
+              ano de fabricação: 1966
+              cor: azul escuro
+              características: 2 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/IMG_2200.JPG" class="card-img-top" alt="mini cooper">
+          <div class="card__body">
+            <h5 class="card__title">Fusca -VW</h5>
+            <p class="card__text">
+              ano de fabricação: 1967
+              cor: azul claro
+              características: 2 portas
+            </p>
+            <a href="#" class="btn btn-primary">Alugar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- sobre -->
+    <section class="sobre" id="sobre">
+      <h1 class="sobre__titulo">Sobre nós</h1>
+      <div class="sobre__texto">
+        <p>
+          A Onle Garage Brasília é uma empresa familiar que foi inaugurada no ano de 2020 na cidade de Brasília. Nosso
+          objetivo principal é proporcionar aos nossos clientes uma experiência única e memorável, oferecendo o serviço
+          de aluguel de carros clássicos para eventos especiais, como casamentos, ensaios fotográficos e exposições.
+        </p>
+        <p>
+          Além disso, também participamos de exposições e eventos temáticos, onde os amantes de carros clássicos têm a
+          oportunidade de apreciar essas raridades de perto e aprender sobre a história automobilística.
+        </p>
+        <p>
+          A Onle Garage Brasília se destaca no mercado pela qualidade e atendimento personalizado. Nossa equipe está
+          sempre pronta para ajudar e garantir que cada cliente tenha uma experiência excepcional. Buscamos superar
+          expectativas e criar memórias inesquecíveis para nossos clientes.
+        </p>
+        <p>
+          Se você está planejando um evento especial em Brasília e deseja adicionar um toque clássico e elegante, conte
+          com a Onle Garage para tornar seu momento ainda mais especial. Estamos ansiosos para fazer parte do seu evento
+          e
+          ajudá-lo a criar lembranças que durarão para sempre.
+        </p>
+      </div>
+    </section>
+  <!-- contato -->
+    <section class="contato" id="contatos">
+      <ul>
+        <a href="http://api.whatsapp.com/send?phone=5561992383922" target="_blank" rel="noopener noreferrer"
+          class="contato__link"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/onlegarage/" target="_blank" class="contato__link"><i
+            class="bi-instagram"></i></a>
+        <a href="mailto:kiki_sns@hotmail.com" target="_blank" rel="noopener noreferrer" class="contato__link"><i
+            class="bi bi-envelope"></i></a>
+      </ul>
+    </section>
+    <p class="direito"> copyright ©2023 onlegarege/Todos os direitos reservados.</p>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
