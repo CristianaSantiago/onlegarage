@@ -1,0 +1,41 @@
+:root {
+    --azul-medio: #96B6C5;
+    --azul-claro: #ADC4CE;
+    --beje: #EEE0C9;
+    --branco-gelo: #F1F0E8;
+    --azul--escuro: #445069;
+    --Berkshire: 'Berkshire Swash', cursive;
+    --Centeio: 'Centeio', cursive;
+    --Phudu: 'Phudu', cursiva;
+    --branco: #fff;
+    --azul: #22668D;
+    --azul-2: #213555;
+
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--Centeio);
+    margin: 0px;
+}
+
+/* .container {
+    padding-left: 2%;
+    padding-right: 2%;    
+} */
+
+.whats {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 9999;
+}
+
+@media screen and (min-width:375px) {
+    .whats {
+        width: 50px;
+        right: 10px;
+        bottom: 5px;
+    }
+
+}

@@ -1,0 +1,32 @@
+.sobre{
+    border-top: 2px solid var(--azul--escuro);
+    text-align: center;    
+   
+}
+
+.sobre__titulo {
+    width: 100%;
+    background-color: var(--azul-medio);
+    text-align: center;
+    font-weight: 400;
+    padding: 1em;
+    color: var(--azul);
+      
+}
+
+.sobre__texto { 
+    padding-top: 2rem;
+    text-align: initial;
+    font-size: larger;    
+}
+
+p {
+    text-align: center;
+    padding: 0 2em;    
+}
+
+@media screen and (min-width:1400px) {
+    .sobre {
+        padding-bottom: 2rem;
+    }
+}

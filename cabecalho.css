@@ -1,0 +1,127 @@
+.cabecalho {
+    font-family: var(--Phudu);
+    color: var(--branco-gelo);
+    width: 100%;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: baseline; */
+    align-items:baseline;
+    /* padding: 0.5em; */
+}
+.logo {   
+    width: 80px;
+    padding: 0.5px;
+}
+.cabecalho__logo {
+    font-size: larger;
+    font-family: var(--Centeio);    
+}
+.cabecalho__navegacao{
+    text-align: center;
+    justify-items: right;
+    align-items: baseline;
+}
+
+.cabecalho__link {
+    padding-left: 1rem;    
+    font-size: 2rem;
+    display: inline-block;   
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--azul--escuro);
+    /* padding: 0.5em;  */
+
+}
+.cabecalho__link:hover {
+    text-decoration: underline;    
+}
+
+@media screen and (min-width:0px){
+    .logo {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cabecalho__link{
+     font-size: 0.5rem;      
+    }
+}
+
+@media screen and (min-width:768px){
+    .logo {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+    }
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cabecalho__link{
+        font-size: 1.2rem;
+        row-gap: 30px;
+        padding-left: 3rem;
+    }
+    /* .cabecalho__logo{
+        font-size: 3rem;
+    } */
+}
+
+@media screen and (min-width:1024px){
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cabecalho__link {
+        align-items: center;
+        font-size: 1.5rem;        
+    }    
+}
+
+@media screen and (min-width:1440px){
+    .logo {          
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cabecalho__navegacao { 
+        align-items: center;
+        display: flex;
+        flex-direction: row;  
+              
+    }
+          
+    .cabecalho__link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        font-family: var(--Phudu);
+        font-size: 2rem;
+        text-transform: uppercase;    
+    }
+}
+

@@ -1,0 +1,138 @@
+.servico {    
+    border-bottom: 2px solid var(--azul--escuro);
+}
+
+.servico__titulo {
+    width: 100%;
+    background-color: var(--azul-medio);
+    text-align: center;
+    font-weight: 400;
+    padding: 1em;
+    color: var(--azul);
+      
+}
+
+.servico__texto {
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    gap: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.servico__link {
+    padding-top: 1rem;
+    display: inline-block;
+    align-items: center;
+}
+
+.botao {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 2px solid var(--beje);
+    border-radius: 5px;
+    background-color: var(--azul--escuro);
+    color: var(--branco-gelo);
+
+}
+
+.botao:hover {
+    background-color: var(--azul-claro);
+    color: var(--azul--escuro);
+}
+
+.fotos {
+    width: 300px;
+    height: 280px;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+@media screen and (min-width: 0px){
+    .fotos {
+        width: 250px;
+    }
+    .servico__link {
+        max-width: 300px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .servico {      
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;                 
+    }
+    
+    .servico__texto {    
+        display: flex;
+        flex-direction: row;       
+        align-items: center;
+        padding: 1rem  1rem 3rem 2rem;
+    }
+
+    .servico__link {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        font-size: 1.2rem;
+    }
+
+    .fotos {
+        width: 350px;
+    }
+
+    .botao:hover {
+        background-color: var(--azul-claro);
+        color: var(--azul--escuro);
+    }
+}
+
+@media screen and (min-width:1040px) {
+
+    .servico {      
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;                 
+    }
+    
+    .servico__texto {    
+        display: flex;
+        flex-direction: row;       
+        align-items: center;
+        padding: 3rem  2rem 3rem 2rem;
+    }
+
+    .servico__link {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        font-size: 1rem;
+    }
+
+    .fotos {
+        width: 280px;
+    }
+
+    .botao:hover {
+        background-color: var(--azul-claro);
+        color: var(--azul--escuro);
+    }
+}
+
+
+/* @media screen and (min-width:320px){
+    .fotos{
+        width: 250px;
+    }
+} */
+
